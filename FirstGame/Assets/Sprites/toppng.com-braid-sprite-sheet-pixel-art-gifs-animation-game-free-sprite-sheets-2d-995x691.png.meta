@@ -1,0 +1,1201 @@
+fileFormatVersion: 2
+guid: 0ba755bf99a3c4bb6a9e108dc53f2f38
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13500a36fd004d96933c6fcabaf48a9
+      internalID: 1003117006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 464
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4a2dc6833fe4614b4fbe3f5de9a086
+      internalID: 514825511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 464
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7066d0735af154febb7b65d28a9b65da
+      internalID: -508268015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 463
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5200cf5d772274e99a70f6dbba8650a0
+      internalID: -1024655008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 463
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d72aa0c63ef74340914d546c7738871
+      internalID: 1652229330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_5
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 463
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbb25706d893450d9423fdf8b55bd22
+      internalID: 1327767486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_6
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 463
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5911414b07e4847b9b6740dadf899d
+      internalID: -655966549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_7
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 463
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001cdd27683074d52bc234f8763b7246
+      internalID: 1882629675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_8
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 462
+        width: 68
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da436a2bc9034d66936ff444b3975cd
+      internalID: -246036881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_9
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 462
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa29eda74ad6049d990e0b141f0a0536
+      internalID: 1317600922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_10
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 462
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bcc325aa2de4a3793bc1705f2d8ce6
+      internalID: -211403187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_11
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 462
+        width: 68
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f410b5457b163479db7b6b3b22c431dd
+      internalID: -2069981209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688b7f32267f5428f95d4e6e27f24811
+      internalID: 18716213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 344
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a191c8c1eae4aefb3fd18c500d8a31
+      internalID: -677015558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_14
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 344
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0be55afce7a4805989b49d24b40553
+      internalID: -613119827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 344
+        width: 68
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cd905e779174585b242fa24d51aa1d
+      internalID: -1054068855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 344
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146d39ee3a4af46afaba60ba4745d5b9
+      internalID: 554269457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_17
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 344
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13de3012bd824c0aa38712a8c085e58
+      internalID: -1324099351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_18
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 345
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe06560f91984c14842519217c8d0ba
+      internalID: -2007220200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_19
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 345
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1eb10c0bc7945748fbce999bc69aae
+      internalID: 1406843048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_20
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 345
+        width: 68
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de587ca0c1d334219b82e58c7f1b8aae
+      internalID: 2010967423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_21
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 345
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0073dd642f934bb99d1781d780390a2
+      internalID: -307397296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_22
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 352
+        width: 101
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087fda94928a64b8e94b27f58c040a33
+      internalID: 252750407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 233
+        width: 100
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4cb6041a85d4ad3916e37f8e4a7181
+      internalID: -1806629891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 231
+        width: 100
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205f516b04def47d49dddf3b4b6b147e
+      internalID: 519046394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_25
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 231
+        width: 96
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecb0c94316fa4ee8a65fb2e1930adcd
+      internalID: 1914284843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_26
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 230
+        width: 89
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa79dd2ee453e46609409297c17cbc66
+      internalID: 2040684825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_27
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 230
+        width: 87
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40200c551d5f4d30a9d1741a087a372
+      internalID: -940039439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_28
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 231
+        width: 86
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5eae04281a8f4cc1ad6064427234f2e
+      internalID: 1596275763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_29
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 230
+        width: 85
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8940989fcee8847d4aae23b07485bd03
+      internalID: -398568409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_30
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 230
+        width: 81
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f2c10ef6deb477eaa4e51a33f024c1
+      internalID: -775154405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_31
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 229
+        width: 81
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129ed56b5496b4872bc2968458473b88
+      internalID: -1524053705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 81
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f757c1a45dfac4e9f8e4df17f88df688
+      internalID: 1410410722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_33
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 115
+        width: 84
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f6805bef4e04ea49c5884fffd90dad
+      internalID: -571250133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_34
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 115
+        width: 86
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c80f8effcd34006b8b4ca1ddea9d55
+      internalID: 414586873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_35
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 118
+        width: 90
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e86c438847d04e3fa65c2f350442742
+      internalID: 1216644921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_36
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 121
+        width: 98
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dc4f4256ced4ce3adf4c465b64120a
+      internalID: -901330977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_37
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 121
+        width: 100
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694b6946070ab44a7a23eda67e8792c1
+      internalID: -1441178214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_38
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 120
+        width: 93
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2a3bf17422c49aba24c00fc37b9765
+      internalID: 1237360019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_39
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 119
+        width: 86
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7114707681d545e7ab525210a8ae8d5
+      internalID: -1206498169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_40
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 118
+        width: 87
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7fb9c50450b42acac4f345ae8744f2
+      internalID: -1802178553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 88
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325aa3d9a62ec4871845b7a37249661a
+      internalID: 855375247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_42
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2
+        width: 84
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c69c9f13b9541d99ae7a61bda82f8a
+      internalID: -468655076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_43
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 0
+        width: 80
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132cebacf32ac48f295fccefe35d27cb
+      internalID: -1800082282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_44
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb6ebecf1a4644008c114a57eef6a80
+      internalID: 1283172706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_45
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 88
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b47082d97b4a4838ba26dd9b5460ec4
+      internalID: -722146805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_46
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 0
+        width: 90
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1cb2fdf36c449dc8fd4406ae2d3a6e
+      internalID: -647918062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_47
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 93
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd890c85e1b94e61b0f320702d45d7e
+      internalID: 909625907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_48
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1
+        width: 95
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f096dcb0644248b3ab89a0be4517fdf
+      internalID: -1844257240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_20: 2010967423
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_42: -468655076
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_48: -1844257240
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_33: -571250133
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_26: 2040684825
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_43: -1800082282
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_11: -2069981209
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_14: -613119827
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_21: -307397296
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_41: 855375247
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_24: 519046394
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_37: -1441178214
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_25: 1914284843
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_19: 1406843048
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_23: -1806629891
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_30: -775154405
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_17: -1324099351
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_13: -677015558
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_8: -246036881
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_16: 554269457
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_7: 1882629675
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_40: -1802178553
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_10: -211403187
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_44: 1283172706
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_31: -1524053705
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_4: 1652229330
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_28: 1596275763
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_46: -647918062
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_1: 514825511
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_39: -1206498169
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_35: 1216644921
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_3: -1024655008
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_18: -2007220200
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_22: 252750407
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_29: -398568409
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_34: 414586873
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_2: -508268015
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_45: -722146805
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_5: 1327767486
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_38: 1237360019
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_12: 18716213
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_36: -901330977
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_6: -655966549
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_47: 909625907
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_15: -1054068855
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_9: 1317600922
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_0: 1003117006
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_32: 1410410722
+      toppng.com-braid-sprite-sheet-pixel-art-gifs-animation-game-free-sprite-sheets-2d-995x691_27: -940039439
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
