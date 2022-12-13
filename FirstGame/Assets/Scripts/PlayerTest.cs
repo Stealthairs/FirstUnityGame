@@ -10,24 +10,34 @@ public class PlayerTest : MonoBehaviour
     //Vector2: (X,Y)
     //Vector3: (X,Y,Z)
 
-    //Physical body
-
+    //speed of player
     [SerializeField]
     private float speed;
 
+    //rigidbody componennt
     private Rigidbody2D body;
 
+    //sprite component
+    private SpriteRenderer sprite;
+
+    //movement of player
     float horizontalMove = 0f;
 
-    float vertMove = 0f;
-
+    //force of player jump
     [SerializeField]
     float jumpForce = 0f;
+
+    private string GROUND_TAG = "Ground";
+    private string ENEMY_TAG = "Enemy";
+
+    private bool canJump = true;
+
 
 
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
 
@@ -36,18 +46,51 @@ public class PlayerTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal");
-      
+        horizontalMovement();
+        playerJump();
+    }
 
-        body.velocity = new Vector2(horizontalMove * speed, body.velocity.y);
 
-        if (Input.GetKey(KeyCode.Space))
+    void playerJump()
+    {
+        if ((Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W)) && canJump)
         {
-            body.velocity = new Vector2(body.velocity.x,jumpForce);
+            canJump = false;
+            body.velocity = new Vector2(body.velocity.x, jumpForce);
+        }
+    }
+
+    void horizontalMovement()
+    {
+        horizontalMove = Input.GetAxisRaw("Horizontal");
+
+        if (horizontalMove < 0)
+        {
+            sprite.flipX = true;
+            body.velocity = new Vector2(horizontalMove * speed, body.velocity.y);
+        }
+        else if (horizontalMove > 0)
+        {
+            sprite.flipX = false;
+            body.velocity = new Vector2(horizontalMove * speed, body.velocity.y);
         }
 
-        Debug.Log(body.velocity);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag(GROUND_TAG))
+        {
+            canJump = true;
+        }
+
+        if (collision.gameObject.CompareTag(ENEMY_TAG))
+        {
+            Destroy(gameObject);
+        }
+
+    }
+
 
 
 }

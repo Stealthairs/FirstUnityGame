@@ -21,12 +21,17 @@ public class Player : MonoBehaviour
     private SpriteRenderer sr;
 
     private string WALK_ANIMATION = "Walk";
+    private string JUMP_ANIMATION = "Jump";
+
+    //private string ATTACK_ANIMATION = "Attack";
 
     private bool isGrounded = true;
 
     private string GROUND_TAG = "Ground";
 
     private string ENEMY_TAG = "Enemy";
+
+    public Transform trans;
 
     
 
@@ -35,6 +40,7 @@ public class Player : MonoBehaviour
         myBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        trans = GetComponent<Transform>();
     }
 
 
@@ -50,14 +56,17 @@ public class Player : MonoBehaviour
     void Update()
     {
         PlayerMoveKeys();
-        AnimatePlayer();
         PlayerJump();
-     
+
+
+
+
 
     }
 
     private void FixedUpdate(){
-        PlayerJump();
+        AnimatePlayer();
+
     }
 
     void PlayerMoveKeys(){
@@ -73,6 +82,7 @@ public class Player : MonoBehaviour
             //left
             anim.SetBool(WALK_ANIMATION, true);
             sr.flipX = true;
+
     
 
         }else if(movementX > 0){
@@ -80,7 +90,7 @@ public class Player : MonoBehaviour
             anim.SetBool(WALK_ANIMATION, true);
             sr.flipX = false;
 
-        }else{
+        }else {
             //idle
             anim.SetBool(WALK_ANIMATION, false);
         }
@@ -89,11 +99,22 @@ public class Player : MonoBehaviour
 
     // players jumps using space bar
     void PlayerJump(){
+       
         if(Input.GetButtonDown("Jump") && isGrounded){
+            anim.SetTrigger(JUMP_ANIMATION);
             isGrounded = false;
             myBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            
 
+        }else if (!isGrounded)
+        {
+            anim.SetBool(JUMP_ANIMATION, true);
         }
+        else
+        {
+            anim.SetBool(JUMP_ANIMATION, false);
+        }
+   
         
     
     }
@@ -104,22 +125,12 @@ public class Player : MonoBehaviour
             isGrounded = true;
         }
 
-        if (collision.gameObject.CompareTag(ENEMY_TAG))
-        {
-            Destroy(gameObject);
-        }
+
 
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag(ENEMY_TAG))
-        {
-            Destroy(gameObject);
-            
-        }
-    }
+
 
 
 
